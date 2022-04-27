@@ -1,0 +1,80 @@
+.App1{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap : 30px;
+  flex-wrap: wrap;
+}
+h1{
+  text-align: center;
+}
+.info{
+  display: flex;
+}
+.homeimg{
+  width:100%;
+}
+.appbar{
+  display: flex;
+}
+.app-bar{
+  margin-left: 1000px;
+  padding-top: 30px;
+  display:flex;
+  flex-direction: row;
+  gap:10px;
+  color: aliceblue;
+}
+.box{
+  justify-content: center;
+  display: flex;
+}
+.slider{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.social-container{
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color:lightgrey;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+input[type=text], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: content-box;
+}
+.search-btn{
+  box-sizing: content-box;
+  width: 5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.text{
+  color: blue;
+}
+.text2{
+  padding-top: 80px;
+}
+.book-button{
+  box-sizing: content-box;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
