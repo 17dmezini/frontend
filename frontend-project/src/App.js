@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./App.css";
-import { Button, Card, CardActionArea, CardContent, CardMedia, Typography } from "@mui/material";
+import { Card, CardActionArea, CardContent, CardMedia, Typography } from "@mui/material";
 import { faYoutube,faFacebook,faTwitter,faInstagram} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Header from "./Header";
@@ -100,7 +100,7 @@ function Home() {
                                     <Typography>Fuel: {el.fuel}</Typography>
                                     <Typography>Rent: {el.price} $ per day</Typography>
                                     <Typography>Period: {el.period} </Typography>
-                                    <Link to="/book"><Button className="book-button">Book</Button></Link>
+                                    <Link to="/book"><button className="book-button">Book</button></Link>
                                 </CardContent>
                             </CardActionArea>
                             
